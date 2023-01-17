@@ -7,6 +7,9 @@ Original Design
 
 Header Schema (HTML)
 ![screenshot](./hypnosis-images/screenShot.jpg)
+![screenshot](./hypnosis-images/screenShot2.jpg)
+![screenshot](./hypnosis-images/screenShot3.jpg)
+![screenshot](./hypnosis-images/screenShot4.jpg)
 
 ## Built With
 
