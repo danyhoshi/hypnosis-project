@@ -7,14 +7,23 @@ Original Design
 
 Header Schema (HTML)
 ![screenshot](./hypnosis-images/screenShot.jpg)
+![screenshot](./hypnosis-images/screenShot2.jpg)
+![screenshot](./hypnosis-images/screenShot3.jpg)
+![screenshot](./hypnosis-images/screenShot4.jpg)
 
 ## Built With
 
 - HTML
 
-## Status project
+## Getting Started
 
-- In develop
+
+### Prerequisites
+- GIT 
+
+### Setup
+- Clone this [Repository](https://github.com/danyhoshi/hypnosis-project) in order to get a copy of this project
+- From develop branch, open the index.html file with your browser.
 
 ## Authors
 
@@ -22,6 +31,7 @@ Header Schema (HTML)
 
 - GitHub: [@danyhoshi](https://github.com/danyhoshi)
 - LinkedIn: [@LinkedIn](https://www.linkedin.com/in/daniela-gonz%C3%A1lez-ba16a556/)
+- Twitter: [@dany_hoshi](https://twitter.com/Dany_hoshi)
 
 ## 🤝 Contributing
 
