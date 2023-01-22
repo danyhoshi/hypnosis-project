@@ -2,4 +2,33 @@ html,
 body {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-family: 'Inter var', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+form,
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  color: #fff;
+  background-color: #161616;
+}
+
+footer {
+  background: #f1f1f1;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
 }
