@@ -26,6 +26,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-bottom: 1px solid #000;
 }
 
 .search {
@@ -50,7 +51,7 @@ footer {
 }
 
 .menu-icon {
-  display: none;
+  display: inline-block;
   order: 3;
   font-size: 2em;
   padding-right: 0.5em;
@@ -63,8 +64,7 @@ nav {
 }
 
 .menu-items {
-  text-decoration: none;
-  color: #000;
+  display: none;
 }
 
 .logo-image {
@@ -75,24 +75,67 @@ nav {
   display: none;
 }
 
+.title-area {
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+}
+
 .title {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 3em;
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .nav {
-    flex-direction: column;
+.main-header-style {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #c7c7c7;
+}
+
+.author-picture {
+  text-align: left;
+}
+
+.author img {
+  width: 100%;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.button-element {
+  font-size: 1em;
+  background: #fff;
+  border: 1px solid #cecece;
+  min-width: 4em;
+  height: 3em;
+}
+
+@media only screen and (min-width: 769px) {
+  .main-header-style {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1em;
   }
 
   .menu-items {
-    display: none;
+    text-decoration: none;
+    color: #000;
   }
 
-  .menu-icon {
-    display: inline-block;
-    padding-right: 0.5em;
+  .social-buttons {
+    min-width: 3em;
+    height: 2.5em;
+    gap: 2em;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 7em;
+    text-align: center;
   }
 }
