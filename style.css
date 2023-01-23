@@ -4,16 +4,11 @@ body {
   padding: 0;
   text-decoration: none;
   font-family: 'Inter var', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
-}
-
-form,
-div {
-  display: flex;
-  flex-direction: column;
 }
 
 aside {
@@ -26,9 +21,78 @@ footer {
   text-decoration: none;
 }
 
+.header-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search {
+  order: 1;
+  flex-basis: 33%;
+  font-size: 2em;
+  padding-left: 0.5em;
+}
+
+.logo-style {
+  order: 2;
+  text-align: center;
+  flex-basis: 33%;
+}
+
+.style-navbar {
+  display: flex;
+  justify-items: flex-end;
+  text-align: right;
+  order: 3;
+  flex-basis: 33%;
+}
+
+.menu-icon {
+  display: none;
+  order: 3;
+  font-size: 2em;
+  padding-right: 0.5em;
+}
+
+nav {
+  display: flex;
+  padding-right: 0.5em;
+  color: #000;
+}
+
+.menu-items {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-image {
+  max-width: 100%;
+}
+
+.input-show {
+  display: none;
+}
+
 .title {
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    padding-right: 0.5em;
+  }
 }
