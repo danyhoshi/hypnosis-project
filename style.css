@@ -158,6 +158,62 @@ nav {
   width: 100%;
 }
 
+.image-aside {
+  padding: 0 1em 0 1em;
+}
+
+.aside-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.related {
+  font-size: 2em;
+  align-self: flex-start;
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.related-text {
+  margin-left: 0.5em;
+}
+
+.see-all-btn {
+  display: none;
+}
+
+.continue-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 2em;
+}
+
+.link-continue {
+  text-decoration: none;
+  color: #fff;
+}
+
+.aside-text {
+  padding: 1em 1em 1em 1em;
+}
+
+.aside-article {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.group-aside-article {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 @media only screen and (min-width: 769px) {
   .main-header-style {
     flex-direction: row;
