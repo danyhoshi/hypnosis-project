@@ -206,11 +206,13 @@ nav {
 
 .aside-article {
   border-bottom: 1px solid #c7c7c7;
+  width: 100%;
 }
 
 .group-aside-article {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 1em;
 }
 
