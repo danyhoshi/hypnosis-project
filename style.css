@@ -95,6 +95,7 @@ nav {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #c7c7c7;
+  padding-bottom: 1em;
   border-bottom: 1px solid #000;
 }
 
