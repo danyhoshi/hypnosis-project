@@ -86,10 +86,16 @@ nav {
   text-align: center;
 }
 
+.title-social {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-header-style {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #000;
 }
 
 .author-picture {
