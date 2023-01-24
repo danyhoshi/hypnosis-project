@@ -1,19 +1,23 @@
 # HYPNOSIS
 
-> Set up the project, the goal here is to master the tools and best practices about Linter and Gitflow and make the HTML schema of the following Figma design: [Hypnosis](https://www.figma.com/file/Ff1dN18GQSNumaa3Iz3BM1/Hypnosis---Neobrutalism-Magazine-Template-(Community)?node-id=49%3A15&t=eJPvslzLnvi5LgPR-0)
+> Set up the project, the goal here is to master the tools and best practices about Linter and Gitflow and make the HTML schema of the following Figma design: [Hypnosis](https://www.figma.com/file/Ff1dN18GQSNumaa3Iz3BM1/Hypnosis---Neobrutalism-Magazine-Template-(Community)?node-id=49%3A15&t=eJPvslzLnvi5LgPR-0). In adittion, the styles of a first mobile version have been added.
 
 Original Design
 ![screenshotDesign](./hypnosis-images/screenShotDesign.jpg)
 
 Header Schema (HTML)
-![screenshot](./hypnosis-images/screenShot.jpg)
-![screenshot](./hypnosis-images/screenShot2.jpg)
-![screenshot](./hypnosis-images/screenShot3.jpg)
-![screenshot](./hypnosis-images/screenShot4.jpg)
+![screenshot](./hypnosis-images/screenMobile1.jpg)
+![screenshot](./hypnosis-images/screenMobile2.jpg)
+![screenshot](./hypnosis-images/screenMobile3.jpg)
+![screenshot](./hypnosis-images/screenMobile4.jpg)
+![screenshot](./hypnosis-images/screenMobile5.jpg)
+![screenshot](./hypnosis-images/screenMobile6.jpg)
+![screenshot](./hypnosis-images/screenMobile7.jpg)
 
 ## Built With
 
 - HTML
+- CSS
 
 ## Getting Started
 
