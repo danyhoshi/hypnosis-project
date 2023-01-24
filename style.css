@@ -171,6 +171,8 @@ nav {
 }
 
 .related {
+  display: flex;
+  justify-content: space-between;
   font-size: 2em;
   align-self: flex-start;
   width: 100%;
@@ -179,10 +181,6 @@ nav {
 
 .related-text {
   margin-left: 0.5em;
-}
-
-.see-all-btn {
-  display: none;
 }
 
 .continue-parent {
@@ -212,8 +210,27 @@ nav {
 .group-aside-article {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   gap: 1em;
+}
+
+.container-btn {
+  display: none;
+}
+
+.container-btn2 {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  padding: 0 0 1em 0;
+}
+
+.see-all-btn2 {
+  font-size: 1.2em;
+  height: 3em;
+  min-width: 90vw;
+  background: #fff;
 }
 
 @media only screen and (min-width: 769px) {
@@ -239,5 +256,23 @@ nav {
     font-weight: 600;
     font-size: 7em;
     text-align: center;
+  }
+
+  .see-all-btn2 {
+    display: none;
+  }
+
+  .container-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1em;
+  }
+
+  .see-all-btn {
+    font-size: 0.75em;
+    height: 2em;
+    background: #fff;
+    line-height: 1.2em;
   }
 }
