@@ -67,6 +67,11 @@ nav {
   display: none;
 }
 
+.menu-items-footer {
+  text-decoration: none;
+  color: #000;
+}
+
 .logo-image {
   max-width: 100%;
 }
@@ -263,6 +268,48 @@ nav {
   color: #fff;
 }
 
+.footer-styles {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1em 0 1em;
+  flex-wrap: wrap;
+  gap: 4em;
+  border-bottom: 1px solid #000;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure-style {
+  text-align: center;
+  width: 100%;
+}
+
+.image-sizing-footer {
+  width: 30%;
+}
+
+.social-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.font-size-icon-footer {
+  font-size: 2em;
+}
+
 @media only screen and (min-width: 769px) {
   .main-header-style {
     flex-direction: row;
@@ -304,5 +351,23 @@ nav {
     height: 2em;
     background: #fff;
     line-height: 1.2em;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .figure-style {
+    text-align: left;
+  }
+
+  .image-sizing-footer {
+    width: 20%;
+  }
+
+  .font-size-icon-footer {
+    font-size: 1.5em;
   }
 }
