@@ -228,9 +228,39 @@ nav {
 
 .see-all-btn2 {
   font-size: 1.2em;
-  height: 3em;
+  min-height: 3em;
   min-width: 90vw;
   background: #fff;
+}
+
+.subscribe-styles {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em 0 1em;
+}
+
+.subscribe-form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em 0 1em;
+  gap: 1em;
+  text-align: center;
+}
+
+.subscribe-text {
+  text-align: center;
+}
+
+.input-style {
+  font-size: 1.2em;
+  min-height: 3.5em;
+}
+
+.input-btn-style {
+  font-size: 1em;
+  min-height: 3.5em;
+  background-color: #000;
+  color: #fff;
 }
 
 @media only screen and (min-width: 769px) {
